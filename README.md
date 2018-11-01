@@ -21,10 +21,9 @@ To acess a route, you can use: Popcorn.route
   }).then((c)async{
     var a = c.random.item;
     print(a);
-  });```
+  });
 </pre><br>
 <pre>
-```dart
 //Params to search() function
 Popcorn.shows.search({
     "keywords":"keywords",
@@ -32,7 +31,6 @@ Popcorn.shows.search({
     "sort":"rating",
     "genre":"all"
 });
-```
 </pre>
 <br>
 <p>You can found more examples in https://github.com/Acnologla/PopcornAPi/tree/master/examples</p>
