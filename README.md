@@ -32,4 +32,4 @@ Popcorn.shows.search({
 });
 ```
 
-`You can found more examples in [Here]:https://github.com/Acnologla/PopcornAPi/tree/master/examples`
+You can found more examples in [Here]:https://github.com/Acnologla/PopcornAPi/tree/master/examples
