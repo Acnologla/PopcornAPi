@@ -5,13 +5,13 @@ Documentation is available at https://popcorn-api.js.org/
 
 ## Usage
 
-`import "popcorn_api";`
 Popcorn-API comes with 4 routes you can use: Anime, Shows, Movies Random
 To acess a route, you can use: Popcorn.route
 
 ## Examples
 
 ```dart
+import "package:popcorn_api/src/Popcorn.dart";
 Popcorn.random("movie").then((c)async{
  print(c.first.item);
 });
