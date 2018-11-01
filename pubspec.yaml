@@ -1,0 +1,6 @@
+name: popcornApi
+author: Acnologia
+version: 1.0.0
+description: interact with popcorn-api easily
+dependencies:
+  http: ^0.12.0
