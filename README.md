@@ -10,6 +10,8 @@ To acess a route, you can use: Popcorn.route
 </p><br>
 <h1>Examples</h1><br><br>
 <pre>
+
+```dart
  Popcorn.random("movie").then((c)async{
      print(c.first.item);
   });
@@ -19,16 +21,18 @@ To acess a route, you can use: Popcorn.route
   }).then((c)async{
     var a = c.random.item;
     print(a);
-  });
+  });```
 </pre><br>
 <pre>
+```dart
 //Params to search() function
 Popcorn.shows.search({
     "keywords":"keywords",
     "page":1,
     "sort":"rating",
     "genre":"all"
-})
+});
+```
 </pre>
 <br>
-<p>You can found more examples in </p>
+<p>You can found more examples in https://github.com/Acnologla/PopcornAPi/tree/master/examples</p>
