@@ -1,14 +1,14 @@
-<h1>PopcornApi</h1><br><hr><br>
+<h1>PopcornApi</h1><br><br>
 <p>
 Easy way to get data from the Popcorn Time API
 Documentation is available at https://popcorn-api.js.org/
 </p><br>
-<h1>Usage</h1><br><hr><br>
+<h1>Usage</h1><br><br>
 <p>
 Popcorn-API comes with 4 routes you can use: anime, shows,movies random<br>
 To acess a route, you can use: Popcorn.route
 </p><br>
-<h1>Examples</h1><br><hr><br>
+<h1>Examples</h1><br><br>
 <pre>
  Popcorn.random("movie").then((c)async{
      print(c.first.item);
