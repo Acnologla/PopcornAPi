@@ -1,4 +1,4 @@
-import "../lib/src/Popcorn.dart";
+import "popcornApi";
 int main(){
   // get a random movie
   Popcorn.random("movie").then((c)async{
@@ -8,22 +8,26 @@ int main(){
   Popcorn.animes.search({
     "keywords":"ga"
   }).then((c)async{
-    var a = c.random.item;
-    print(a);
+    print(c.random.item);
   });
   // the same process work with movies
   Popcorn.movies.search({
     "keywords":"ga"
   }).then((c)async{
-    var a = c.random.item;
-    print(a);
+    print(c.random.item);
   });
   //Get result of shows, and get it array
   Popcorn.shows.search({
     "keywords":"league"
   }).then((c)async{
-    var a = c.array;
-    print(a);
+    print(c.array);
+  });
+  //Params to search() function
+  Popcorn.shows.search({
+    "keywords":"keywords",
+    "page":1,
+    "sort":"rating",
+    "genre":"all"
   });
   return 0;
 }
