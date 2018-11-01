@@ -19,8 +19,7 @@ To acess a route, you can use: Popcorn.route
   Popcorn.animes.search({
     "keywords":"ga"
   }).then((c)async{
-    var a = c.random.item;
-    print(a);
+    print(c.random.item);
   });
 //Params to search() function
 Popcorn.shows.search({
