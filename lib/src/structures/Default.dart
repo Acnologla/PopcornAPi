@@ -1,4 +1,4 @@
-import "../../utils/request.dart";
+import "../utils/request.dart";
 import 'dart:async';
 import "dart:math"; 
 var request = new Requests();

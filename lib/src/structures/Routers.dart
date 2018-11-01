@@ -1,6 +1,6 @@
 import "./Default.dart";
 import 'dart:async';
-import "../../utils/request.dart";
+import "../utils/request.dart";
 var request = new Requests();
 const String base = "https://tv-v2.api-fetch.website/";
 class Routers {

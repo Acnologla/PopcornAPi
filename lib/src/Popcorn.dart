@@ -1,4 +1,4 @@
-library popcornApi;
+library popcorn_api;
 import "./structures/Routers.dart";
 class Popcorn {
   static get movies {
