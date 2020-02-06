@@ -29,7 +29,7 @@ class Requests {
  Future<Item> get(url) async {
     var request = await HttpClient().getUrl(Uri.parse(url));
     var response = await request.close();
-    final future = await response.transform(Utf8Decoder());
+    final future = await Utf8Decoder().bind(response);
     var ror="";
     await for (var string in future) {
       if (string != "" && string != null && string != "null") {
